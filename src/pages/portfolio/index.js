@@ -18,6 +18,7 @@ export const Portfolio = () => {
             <h1 className="display-4 mb-4"> Portfolio </h1>{" "}
             <hr className="t_border my-4 ml-0 text-left" />
           </Col>
+          <p>Here you can see what projects I have been working on, you can read more about them by visiting my blog.</p>
         </Row>
         <div className="mb-5 po_items_ho">
           {dataportfolio.map((data, i) => {

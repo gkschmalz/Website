@@ -21,6 +21,10 @@
     color: var(--text-color-2);
 }
 
+.menu_item a {
+    font-size:x-small;
+}
+
 .nav_ac {
     padding: 5px 15px;
     margin: 0;
@@ -87,12 +91,18 @@
 
 .site__navigation {
     height: 100%;
-    left: 0;
+    right: 0;
     overflow: hidden;
     position: fixed;
     top: 0;
-    width: 100%;
+    width: 50%;
     visibility: hidden;
+}
+
+@media screen and (max-width: 768px) {
+    .site__navigation {
+        width: 100%;
+    }
 }
 
 .menu__opend {
